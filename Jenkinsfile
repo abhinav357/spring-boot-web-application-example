@@ -18,6 +18,10 @@ pipeline{
                         steps{
                         sh 'mvn install'
                         }
+                stage('Docker'){
+                        steps{
+                                
+                        }            
                 }
         }
 }
